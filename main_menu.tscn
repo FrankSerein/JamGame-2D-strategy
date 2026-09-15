@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://cpryornfndwxj"]
+
+[ext_resource type="Script" uid="uid://b7splp5nr22ko" path="res://scripts/main_menu.gd" id="1_l6cm7"]
+
+[node name="MainMenu" type="Control" unique_id=242257675]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_l6cm7")
+
+[node name="Title" type="Label" parent="." unique_id=182462663]
+layout_mode = 0
+offset_left = 472.0
+offset_top = 128.0
+offset_right = 703.0
+offset_bottom = 151.0
+text = "JamGame Strategy Demo V0.1"
+
+[node name="StartButton" type="Button" parent="." unique_id=588259111]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 285.0
+offset_right = 617.0
+offset_bottom = 355.0
+text = "Start"
